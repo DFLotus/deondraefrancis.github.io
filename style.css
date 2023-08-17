@@ -1,0 +1,49 @@
+/* Apply this to your existing CSS code */
+.contextGuard ul {
+    list-style: none;
+    padding: 10px 0; /* Adjust padding for top and bottom */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+}
+
+.contextGuard li {
+    margin: 0 15px 15px;
+}
+
+.contextGuard a {
+    text-decoration: none;
+    color: #333;
+    font-size: 50px;
+}
+
+/* Add padding to the About Me and Projects sections */
+.aboutSection{
+    padding:    10px 5px;
+    justify-content: center;
+    text-align: center;
+}
+.socialsSection{
+    text-align: center;
+    margin: 0 10px 10px;
+}
+.socialsSection i {
+    margin: 10 10px; /* Adjust margin as needed */
+}
+
+.projectSection {
+    padding:    10px 5px;
+    justify-content: center;
+    text-align: center;
+}
+.resumecontext {
+    padding: 10px 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.resumecontext iframe {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css" type="text/css">
 <html lang="en"><!--lang=en means that the primary lanauge is english-->
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <div>
         <meta charset="UTF-8"><!--character encoding, 1's and 0's best pratice-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--assign viewpoint for better browser view-->
-        <h1>Deondrae Francis</h1>
     </div>
 </head>
-
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <ul>
+        <nav class="contextGuard">
+            <ul id="contextMenu">
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">My Work</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
@@ -24,25 +24,29 @@
 
     <!-- About Me Section -->
     <section id="about-me">
-        <div>
-            <h2>About Me</h2>
+        <div class="aboutSection">
+            <h2>Hi! My name is Deondrae Francis, and I am an undergraduate at CUNY Hunter College. I am extremely passionate about computer science and expanding my knowledge in the field because I believe that technology will lead the way into the future and allow us to solve complex problems and create innovative approaches to solutions that may already exist. Aside from academics and technology, I am active in Management Leadership for Tomorrow, Color Stack, and the Opportunity Network. These organizations provide a supportive network of CS professionals, which has been beneficial to my personal and professional development.</h2>
         </div>
-        <div class="socials">
-            <a href="https://www.linkedin.com/in/deondraefrancis/"> Linkedin</a>
-            <a href="https://github.com/DFLotus"> Github</a>
+        <div class="socialsSection">
+            <a href="https://www.linkedin.com/in/deondraefrancis/"><i class="fab fa-linkedin"></i> Linkedin</a>
+            <a href="https://github.com/DFLotus"><i class="fab fa-github"></i> Github</a>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <div>
+        <div class="projectSection">
             <h2>Projects</h2>
+            <p>Nothing to see just yet</p>
         </div>
     </section>
 
     <!-- Resume Section -->
     <section id="resume">
-        <h2>Resume</h2>
+        <div class="resumecontext">
+            <h2>Resume</h2>
+            <iframe src="https://drive.google.com/uc?export=view&id=13SByEKguJ_1J5Roptr4dzfVbw1ZrRirq" width="100%" height="600px"></iframe>
+        </div>
     </section>
 
 </body>
