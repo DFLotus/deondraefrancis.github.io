@@ -1,10 +1,14 @@
-/* Apply this to your existing CSS code */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 .contextGuard ul {
     list-style: none;
     padding: 10px 0; /* Adjust padding for top and bottom */
     margin: 0;
     display: flex;
     justify-content: center; /* Horizontally center the items */
+    background-color: #264d35;
+    opacity: 0.5; /* Added opacity for smoother transition */
 }
 
 .contextGuard li {
@@ -13,7 +17,7 @@
 
 .contextGuard a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-size: 50px;
 }
 
@@ -22,6 +26,9 @@
     padding:    10px 5px;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
 }
 .socialsSection{
     text-align: center;
@@ -47,3 +54,23 @@
     margin-top: 20px;
 }
 
+#imgCover {
+    background: url('hunter-spring-campus2.jpg') center/cover no-repeat;
+    height: 100vh;
+    transition: background 0.5s ease-in-out;
+}
+.aboutSection,
+.projectSection,
+.resumecontext {
+    margin-top: calc(25vh - 5px);
+    margin: 10px auto; /* Adjusted margins for better spacing */
+    background-color: #f1f8ef;
+    opacity: 0.9; /* Added opacity for smoother transition */
+}
+
+.footerBg{
+    padding: 10px 0; /* Adjust padding for top and bottom */
+    margin: 0;
+    background-color: #264d35;
+    opacity: 0.5; /* Added opacity for smoother transition */
+}
